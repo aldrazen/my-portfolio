@@ -1,4 +1,4 @@
-import { Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, Check } from "lucide-react";
 import drazProfPic from "../assets/images/drazPicPortfolio.png";
 import UmLogo from "../assets/images/university_of_mindanao_logo.jpeg";
 import { ModeSwitch } from "@/components/ui/dark-mode-button";
@@ -8,8 +8,22 @@ import TechStack from "@/components/TechStack";
 import Hobbies from "@/components/Hobbbies";
 import RecentProjects from "@/components/RecentProjects";
 import RecentCertifications from "@/components/RecentCertifications";
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
 
 const HomePage = () => {
+  const [copied, setCopied] = useState(false);
+
+  const handleEmailAction = () => {
+    const email = "aldrazensagarino@gmail.com";
+
+    navigator.clipboard.writeText(email);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+
+    window.location.href = `mailto:${email}`;
+  };
+
   return (
     <main className="animate-fade-in">
       <div className="max-w-4xl w-full mx-auto px-4 py-8 min-h-screen">
@@ -42,10 +56,16 @@ const HomePage = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 mt-3">
-                <div className="flex gap-2 px-3 py-1.5 rounded-lg border bg-background hover:border-foreground/20 transition-all duration-200 hover:-translate-y-0.5 group te">
-                  <Mail className="w-4 h-4" />
-                  <p className="text-[10px] font-medium transition-colors">aldrazensagarino@gmail.com</p>
-                </div>
+                <Button
+                  variant="none"
+                  onClick={handleEmailAction}
+                  title="Click to send email (also copies to clipboard)"
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-lg border bg-background hover:border-foreground/20 transition-all duration-200 hover:-translate-y-0.5 group cursor-pointer"
+                >
+                  {copied ? <Check className="w-4 h-4 text-green-500 animate-in zoom-in" /> : <Mail className="w-4 h-4" />}
+
+                  <p className="text-[10px] font-medium transition-colors">{copied ? "Copied & Opening Mail..." : "aldrazensagarino@gmail.com"}</p>
+                </Button>
                 <a
                   href="https://www.linkedin.com/in/al-drazen-sagarino-13bb78338/"
                   target="_blank"
@@ -60,7 +80,7 @@ const HomePage = () => {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    style={{ width: "14px", height: "14px" }} // Matches your Lucide icon size
+                    style={{ width: "14px", height: "14px" }}
                   >
                     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                     <rect width="4" height="12" x="2" y="9" />
