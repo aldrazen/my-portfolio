@@ -1,4 +1,4 @@
-import { MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import drazProfPic from "../assets/images/drazPicPortfolio.png";
 import UmLogo from "../assets/images/university_of_mindanao_logo.jpeg";
 import { ModeSwitch } from "@/components/ui/dark-mode-button";
@@ -42,6 +42,10 @@ const HomePage = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 mt-3">
+                <div className="flex gap-2 px-3 py-1.5 rounded-lg border bg-background hover:border-foreground/20 transition-all duration-200 hover:-translate-y-0.5 group te">
+                  <Mail className="w-4 h-4" />
+                  <p className="text-[10px] font-medium transition-colors">aldrazensagarino@gmail.com</p>
+                </div>
                 <a
                   href="https://www.linkedin.com/in/al-drazen-sagarino-13bb78338/"
                   target="_blank"
