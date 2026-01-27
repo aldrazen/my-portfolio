@@ -69,7 +69,7 @@ const HomePage = () => {
                   <p className="text-[10px] font-medium transition-colors">LinkedIn</p>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/al-drazen-sagarino-13bb78338/"
+                  href="https://github.com/aldrazen"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-background border  hover:border-foreground/20 transition-all duration-200 hover:-translate-y-0.5 group"
