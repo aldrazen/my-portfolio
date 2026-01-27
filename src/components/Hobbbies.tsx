@@ -3,14 +3,13 @@ import { SquarePlay } from "lucide-react";
 
 const Hobbies = () => {
   return (
-    <Card className="p-4 w-full space-y-4 group animate-fade-in shadow-[var(--shadow-sm)] rounded-xl border border-border/40">
+    <Card className="p-4 h-full w-full space-y-4 group animate-fade-in shadow-[var(--shadow-sm)] rounded-xl border border-border/40">
       <div className="flex items-center gap-2">
         <SquarePlay className="w-4 h-4 text-primary" />
         <h2 className="text-lg font-bold">Hobbies</h2>
       </div>
 
       <div className="space-y-4 text-sm text-muted-foreground leading-relaxed text-left">
-
         <div>
           <h3 className="font-bold text-foreground mb-1">Tech & Learning</h3>
           <p className="text-sm text-foreground/90 leading-relaxed text-start">
