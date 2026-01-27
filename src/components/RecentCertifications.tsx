@@ -17,7 +17,7 @@ const RecentCertifications = () => {
         </Link>
       </div>
       <div className="space-y-1.5">
-        {CERTIFICATIONS.slice(0, 2).map((cert, index) => (
+        {CERTIFICATIONS.filter((_, index) => index === 3 || index === 5).map((cert, index) => (
           <a
             key={index}
             href={cert.url}
