@@ -19,11 +19,10 @@ const SocialLinks = () => {
   const handleDownload = () => {
     setDownloaded(true);
 
-    // Path to your file starting from the root of the 'public' folder
-    const fileUrl = "/CV/SagarinoCV.pdf"; // Replace with your actual filename
+    const fileUrl = "/CV/Al-Drazen-Sagarino-CV.pdf"; 
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = "Al-Drazen-Sagarino-CV.pdf"; // What the file will be named on their PC
+    link.download = "Al-Drazen-Sagarino-CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
