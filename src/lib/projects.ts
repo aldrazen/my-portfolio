@@ -34,7 +34,7 @@ export const PROJECTS = [
     name: "UMconnect",
     description: "A web-based SMS announcement system designed for the faculty and students of the University of Mindanao.",
     urlDisplay: "https://drive.google.com/drive/u/0/folders/18_dtMZmEmkcBbMEaKALfP8gYg4h0gyY6",
-    url: "https://drive.google.com/drive/u/0/folders/1AVnLgVvZSp6wY8y9IJl9YJA09hhaFFTw",
+    url: "https://drive.google.com/drive/u/0/folders/18_dtMZmEmkcBbMEaKALfP8gYg4h0gyY6",
   },
   {
     name: "ShaRecipe (Mobile App)",
