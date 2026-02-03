@@ -23,7 +23,9 @@ const ProjectsPage = () => {
               <a href={project.url} rel="noopener noreferrer" target="_blank" className="block space-y-1">
                 <h3 className="text-sm font-semibold truncate">{project.name}</h3>
                 <p className="text-xs">{project.description}</p>
-                <p className="text-xs font-mono  bg-foreground/5  px-2 py-1 rounded-md inline-block mt-1">{project.urlDisplay}</p>
+                {project.urlDisplay ? (
+                  <p className="text-xs font-mono  bg-foreground/5  px-2 py-1 rounded-md inline-block mt-1 break-all">{project.urlDisplay}</p>
+                ) : null}
               </a>
             </Card>
           ))}
