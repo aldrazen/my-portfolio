@@ -9,7 +9,7 @@ export interface ExperienceItem {
 export const EXPERIENCE: ExperienceItem[] = [
   {
     id: "item-1",
-    role: "Junior Frontend Developer (Part-Time)",
+    role: "Frontend Developer (Part-Time)",
     company: "Aquila Softwares",
     period: "June 2025 - Present",
     description: [
@@ -24,7 +24,7 @@ export const EXPERIENCE: ExperienceItem[] = [
   },
   {
     id: "item-2",
-    role: "Junior Frontend Developer (Intern)",
+    role: "Frontend Developer (Intern)",
     company: "Aquila Softwares",
     period: "March 2025 - June 2025",
     description: [
