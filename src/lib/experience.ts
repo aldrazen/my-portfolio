@@ -13,7 +13,8 @@ export const EXPERIENCE: ExperienceItem[] = [
     company: "Aquila Softwares",
     period: "June 2025 - Present",
     description: [
-      "Bettermomsh (E-commerce Platform) — Lead Frontend Developer responsible for UI architecture, reusable components, responsive layouts, and API integration using React, TypeScript, Tailwind, and Ant Design.",
+      "Run For Love Landing Page - Maintained and revamped the landing page for PacePoint’s Run For Love event, including backend API integration to track users’ registration status.",
+      "Bettermomsh (E-commerce Platform) - Lead Frontend Developer responsible for UI architecture, reusable components, responsive layouts, and API integration using React, TypeScript, Tailwind, and Ant Design.",
       "Developed the frontend architecture and integrated APIs for a comprehensive HRIS Recruitment Module, enabling end-to-end user experiences for job management and applicant tracking across web (React) and mobile (React Native) platforms.",
       "Sole frontend developer for a production Inventory Management System using React, TypeScript, SCSS, Ant Design, and MobX, implementing UI, API integration, and real-time notifications for job order deployment and returns via WebSockets.",
       "Maintain the company’s three Clinic Systems, responsible for new feature development, UI/UX improvements, API integrations, refactoring, and fixing critical production issues.",
