@@ -1,5 +1,11 @@
 export const PROJECTS = [
   {
+    name: "Run For Love",
+    description: "A landping page for pacepoint's run for love event.",
+    urlDisplay: "https://runforlove.pacepoint.app/",
+    url: "https://runforlove.pacepoint.app/",
+  },
+  {
     name: "Personal Portfolio",
     description: "A developer portfolio built with React, TypeScript, and Tailwind CSS.",
     urlDisplay: "al-drazen-sagarino.vercel.app/",
