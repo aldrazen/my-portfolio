@@ -1,7 +1,21 @@
 export const TECH_STACK = [
   {
     category: "Frontend",
-    skills: ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Bootstrap", "Ant Design", "ShadCN"],
+    skills: [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "React Native",
+      "Expo",
+      "Tailwind CSS",
+      "NativeWind",
+      "Bootstrap",
+      "Ant Design",
+      "ShadCN",
+      "SCSS",
+      "MobX",
+    ],
   },
   {
     category: "Backend",
@@ -9,6 +23,6 @@ export const TECH_STACK = [
   },
   {
     category: "Developer Tools",
-    skills: ["Git", "GitHub", "VsCode","Postman","Swagger", "Discord", "ClickUp"],
+    skills: ["Git", "GitHub", "VsCode", "Postman", "Swagger", "Discord", "ClickUp", "GitHub Actions", "EAS Build"],
   },
 ];
