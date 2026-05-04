@@ -9,14 +9,17 @@ const About = () => {
         <h2 className="text-lg font-bold">About Me</h2>
       </div>
       <p className="text-sm text-foreground/90 leading-relaxed text-start">
-        I’m a BS Information Technology graduate with 1 year of experience working as a front-end developer. I focus on building clean, responsive, and
-        user-friendly interfaces using React and TypeScript, and I’m always looking for ways to improve through real project work and continuous learning. I
-        care about creating smooth, intuitive user experiences and enjoy working with modern tools and best practices to deliver reliable, high-quality
-        solutions.
+        Frontend Developer currently working part-time at a software company in Davao, where I build and maintain production web and mobile applications across
+        multiple live products. I'm actively looking for a full-time remote role where I can contribute more and grow further.
         <br />
         <br />
-        I’m currently learning Next.js and React Native to broaden my skill set and strengthen my understanding of modern web development and mobile
-        development. This helps me build more efficient, scalable, and production-ready applications as I continue growing as a front-end developer.
+        I specialize in React, React Native, TypeScript, and Tailwind CSS. I've led mobile app development from scratch, including a cooperative banking app
+        where I handled the full UI architecture, API integration, and an automated CI/CD pipeline using GitHub Actions and EAS Build. I've also built
+        e-commerce platforms, maintained healthcare systems, and developed HRIS and inventory management tools both as a sole developer and as part of a team.
+        <br />
+        <br />
+        I'm comfortable owning a project end-to-end, collaborating with backend developers, and delivering clean, scalable code under real production pressure.
+        If you need a reliable frontend developer who can hit the ground running, I'd love to work with you.
       </p>
     </Card>
   );
